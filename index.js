@@ -1,1 +1,12 @@
-console.log("Hola mundo");
+const express = require('express');
+const app = express();
+require('dotenv').config();
+
+app.get('/', (req, res) => {
+    res.send('Hola Mundo');
+});
+const PORT = process.env.PORT;
+
+app.listen(PORT, () => {
+    console.log(`Servidor corriendo en el puerto ${PORT}`);
+});
