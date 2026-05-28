@@ -4,10 +4,6 @@ import userRoutes from './routes/user.js';
 const app = express();
 dotenv.config();
 
-// const express = require('express');
-// const app = express();
-// require('dotenv').config();
-
 app.get('/', (req, res) => {
     res.send('Hola Mundo');
 });
