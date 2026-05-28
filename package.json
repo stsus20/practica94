@@ -1,8 +1,8 @@
 {
   "name": "api_node_94",
   "version": "1.0.0",
-  "description": "La api proyecto 94",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js",
